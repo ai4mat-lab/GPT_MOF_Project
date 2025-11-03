@@ -9,9 +9,13 @@ MOF Type, Secondary building block formation, Linker, Solvent, Reaction Temperat
 You can edit the characteristics inside the code by editing the GPT prompt.
 
 In order to run the code:
+
 1-install the requirements
+
 2-insert your OpenAI API key in the outlined section.
+
 3-make a directory with the name "Directory for Literature" and put the literature in PDF format in the folder.
+
 4-rename the documents in numeric format to track the documents for further analysis (optional). 
 
 MOF_database_cleaned.csv contains the csv output of data extracted from 434 articles. The data has been cleaned and is machine-readable.
