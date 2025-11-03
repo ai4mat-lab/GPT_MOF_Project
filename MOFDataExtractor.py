@@ -6,7 +6,7 @@ import os
 from tqdm import tqdm
 
 openai.api_key = "Your api Key"
-directory = 'Directory for Litrature'
+directory = 'Directory for Literature'
 
 def ask1(system_prompt,user_prompt,engine='gpt-4o-mini'):
     response=openai.ChatCompletion.create(
@@ -83,4 +83,5 @@ try:
 except Exception as e: 
     print(e)
     
+
 DF.to_csv('GPT_extracted_dataset.csv')
