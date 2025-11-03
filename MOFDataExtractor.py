@@ -4,7 +4,9 @@ import PyPDF2
 import pandas as pd
 import os
 from tqdm import tqdm
+
 openai.api_key = "Your api Key"
+directory = 'Directory for Litrature'
 
 def ask1(system_prompt,user_prompt,engine='gpt-4o-mini'):
     response=openai.ChatCompletion.create(
@@ -40,8 +42,6 @@ input:
 
 DF_temp = pd.DataFrame()
 DF = pd.DataFrame()
-
-directory = 'Directory for Litrature'
 
 try:
     for filename in tqdm(os.listdir(directory)):
