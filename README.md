@@ -1,6 +1,6 @@
 # GPT-MOF-Project
 
-In this project we used GPT-4o-mini engine to extract key elements from scientific literature regarding metal-organic frameworks features and their CO2 capture properties.
+In this project we used GPT-4o-mini (LLM) to extract key elements from scientific literature regarding metal-organic frameworks features and their CO2 capture properties.
 
 Using the MOFDataExtractor,py, you can extract MOF key characteristics from literature.
 These characteristics include: 
