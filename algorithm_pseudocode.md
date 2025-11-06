@@ -12,7 +12,7 @@ ______append text to text variable
 ____remove references section from text
 ____send text to GPT
 ____ask GPT question about text
-#####################################################################################
+######################################################################################
     GPT prompt:
     •	Answer this question as truthfully as possible using the provided context.
     •	The information should be as short as possible. 
